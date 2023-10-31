@@ -26,6 +26,7 @@ namespace ProductService.API.Controllers
             {
                 IEnumerable<ProductDto> productDtos = await _productRepository.GetProducts();
                 _response.Result = productDtos;
+                
             }
             catch (Exception ex)
             {
