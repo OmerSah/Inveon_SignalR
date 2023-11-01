@@ -6,7 +6,7 @@ using ProductService.API.Repositories;
 
 namespace ProductService.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
